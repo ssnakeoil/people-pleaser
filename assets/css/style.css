@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    background-color: black;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  a:link {
+    color: brown;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  a:visited {
+    color: brown;
+  }
+
+  a:active {
+    color: white;
+  }
+
+  header {
+    background-color: black;
+  }
+
+  ul {
+    list-style-position: inside;
+    padding: 10px;
+    overflow: hidden;
+  }
+
+  li {
+    display: inline-block;
+    padding-right: 10px;
+    float: right;
+    list-style: none;
+  }
+  
+  h1 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+
+  span {
+    font-size: .6em;
+  }
+
+  .ketchup {
+    position: relative;
+    display: block;
+    margin-top: 15%;
+    margin-bottom: auto;
+    margin-inline-start: -5px;
+    position: relative;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+    color:black;
+    background-color: white;
+    text-align: center;
+  }
+
+  .mustard {
+    position: relative;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: auto;
+    margin-inline-start: -15px;
+    position: relative;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+    color:black;
+    background-color: white;
+    text-align: center;
+  }
+
+  .banner {
+    position: relative;
+    height: 150px;
+    background-color: gray;
+    overflow: visible;
+    text-align: end;
+    padding-right: 40px;
+    background-repeat: repeat;
+    background-image: url("../images/diamond_rep.jpg");
+  }
+
+  .banner img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bread {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .lettuce {
+    flex: 30%;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    border-style: solid;
+    text-align: end;
+  }
+  
+  .tomato {
+    flex: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    overflow-wrap: normal;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-left: 10px solid whitesmoke;
+    background-color: black;
+    margin-bottom: 30px;
+  }
+  
+  .gouda {
+    flex: 0 0 71%;
+    background-color: black;
+    border: solid white;
+    border-width: 2px;
+    height: 500px;
+    background-size: cover;
+    margin: 0 0 10 0px;
+    background-position: center;
+    background-image: url("../images/ampromo.png");
+    border-radius: 10px;
+    opacity: 50%;
+    transition: .5s ease;
+  }
+
+  .gouda:hover {
+    opacity: 100%;
+    transition: .5s ease;
+  }
+
+  .gouda:hover {
+    opacity: 100%;
+  }
+  
+  .manchego {
+    height: 100px;
+    flex: 0 0 35.3%;
+    padding: 10px;
+    line-height: 1;
+    border-style: solid;
+    border-width: 3px;
+    background-color: brown;
+    border-color: white;
+    margin: 5px 5px 0px 0px;
+    border-radius: 10px;
+    opacity: 50%;
+    transition: .5s ease;
+  }
+
+  .manchego:hover {
+    opacity: 100%;
+    transition: .5s ease;
+  }
+
+  #project2 {
+    background-image: url("../images/diamond_rep.jpg")
+  }
+
+  #project3 {
+    background-image: url("../images/diamond_rep.jpg")
+  }
+
+  #project4 {
+    background-image: url("../images/diamond_rep.jpg")
+  }
+
+  #project5 {
+    background-image: url("../images/diamond_rep.jpg")
+  }
+
+  #face {
+    border-radius: 10px 50px;
+    width: 250px;
+    border: 5px solid brown;
+    border-style: dashed;
+    margin-top: -50px;
+    margin-left: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
