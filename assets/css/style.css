@@ -9,10 +9,11 @@
     margin-top: 2%;
     background-color: black;
   }
-
+/* Making the background of the page black */
   body {
     background-color: black;
   }
+/* Customizing the way links look */
 
   a:link {
     color: brown;
@@ -59,6 +60,8 @@
     font-size: .6em;
   }
 
+/* Ketchup governs the largest project link */
+
   .ketchup {
     position: relative;
     display: block;
@@ -75,6 +78,8 @@
     background-color: white;
     text-align: center;
   }
+
+/* Mustard governs the smaller project link text */
 
   .mustard {
     position: relative;
@@ -93,6 +98,8 @@
     text-align: center;
   }
 
+/* This displays at the top of the page, below nav links */
+
   .banner {
     position: relative;
     height: 150px;
@@ -104,17 +111,8 @@
     background-image: url("../images/diamond_rep.jpg");
   }
 
-  .banner img {
-    margin-left: auto;
-    margin-right: auto;
-  }
+/* This governs the section titles (i.e. About Me, etc.) */
 
-  .bread {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-  
   .lettuce {
     flex: 30%;
     font-size: 1em;
@@ -124,6 +122,8 @@
     text-align: end;
   }
   
+/* This governs the text within each section */
+
   .tomato {
     flex: 70%;
     display: flex;
@@ -138,6 +138,8 @@
     margin-bottom: 30px;
   }
   
+/* This is formatting for the image for the largest project image link */
+
   .gouda {
     flex: 0 0 71%;
     background-color: black;
@@ -162,6 +164,8 @@
     opacity: 100%;
   }
   
+/* This governs the default appearance of smaller project links */
+
   .manchego {
     height: 100px;
     flex: 0 0 35.3%;
@@ -182,6 +186,8 @@
     transition: .5s ease;
   }
 
+/* The next styles are the background images for their respective project links */
+
   #project2 {
     background-image: url("../images/diamond_rep.jpg")
   }
@@ -198,15 +204,24 @@
     background-image: url("../images/diamond_rep.jpg")
   }
 
+/* This can be used to move profile image around */
+
   #face {
     border-radius: 10px 50px;
     width: 250px;
     border: 5px solid brown;
     border-style: dashed;
     margin-top: -50px;
-    margin-left: 5%;
+    margin-left: 20px;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .lettuce, 
+    .tomato {
+      flex-direction:row;
+    }
   }
